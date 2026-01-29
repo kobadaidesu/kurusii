@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh-keyscan:*)",
+      "Bash(~/.ssh/known_hosts)"
+    ]
+  }
+}
