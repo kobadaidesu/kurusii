@@ -14,13 +14,31 @@
 //     return 0;
 // }
 
-int main(void) {
-    int i = -1;
-    
-    while (i < 0 || i > 100) {
-        scanf("%d", &i);
+// int main(void) {
+//     int i = -1;
+   
+//     while (i < 0 || i > 100) {
+//         scanf("%d", &i);
 
+//     }
+//     printf("%d\n", i);
+//     return 0;
+// }
+
+
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    if (argc > 1) {
+        printf("%s\n", argv[1]);
     }
-    printf("%d\n", i);
+
+    fflush(stdin);
+    getchar();
+
     return 0;
 }
+
+
